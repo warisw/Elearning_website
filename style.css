@@ -1,0 +1,94 @@
+:root {
+  display: block;
+}
+body {
+  background-color: #583c9c;
+}
+.logo {
+  position: relative;
+  color: white;
+  display: block;
+  top: -4em;
+  font-size: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 6em;
+}
+nav {
+  padding-top: 10em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+main {
+  display: flex;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.5em;
+  width: 5em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+}
+.nav-links:hover {
+  background-color: white;
+  color: #ff6c3c;
+  width: 6.8em;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.bx {
+  color: #7a67c7;
+  margin-right: 0.5em;
+  font-size: 1.2em;
+}
+
+.mainSection {
+  background-color: white;
+  height: fit-content;
+  width: 80%;
+  padding: 4em;
+  position: absolute;
+  left: 12em;
+  border-radius: 25px;
+  margin: 2em;
+}
+.unfinishedCourses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 2em 1em;
+  overflow-y: auto;
+  height: fit-content;
+
+  padding: 2em;
+}
+.unfinished-a,
+.unfinished-b {
+  border: solid black 2px;
+  height: 15em;
+  width: 15em;
+  display: block;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 1em;
+  box-shadow: 7px 7px lightblue;
+}
+.courses-links {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+.courses-link {
+  border: solid black 1px;
+  height: 10em;
+  width: 5em;
+  display: block;
+  margin: 1em;
+  border-radius: 25px;
+  box-shadow: 10px 10px lightblue;
+}

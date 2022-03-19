@@ -1,0 +1,105 @@
+:root {
+  display: block;
+}
+body {
+  background-color: #583c9c;
+}
+
+.logo {
+  position: relative;
+  color: white;
+  display: block;
+  top: -4em;
+  font-size: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 6em;
+}
+nav {
+  padding-top: 10em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+main {
+  display: flex;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.5em;
+  width: 5em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+}
+.nav-links:hover {
+  background-color: white;
+  color: #ff6c3c;
+  width: 6.8em;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.bx {
+  color: #7a67c7;
+  margin-right: 0.5em;
+  font-size: 1.2em;
+}
+.mainSection {
+  background-color: white;
+  height: fit-content;
+  width: 80%;
+  padding: 4em;
+  position: absolute;
+  left: 12em;
+  border-radius: 25px;
+  margin: 2em;
+  display: flex;
+}
+
+.courses-links {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.left {
+  /* border: solid 2px red; */
+  width: 80%;
+  padding: 2em;
+  margin-right: 2em;
+  box-shadow: 5px 5px 7px 4px rgba(128, 128, 128, 0.308);
+  border-radius: 24px;
+  font-size: 1.4em;
+}
+.right {
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2em;
+
+  background-color: rgba(246, 253, 146, 0.335);
+  height: fit-content;
+  width: 40%;
+  box-shadow: 5px 4px 4px 4px rgba(128, 128, 128, 0.304);
+  border-radius: 24px;
+}
+
+.contents-ol {
+  list-style: none;
+}
+.contents-ol li {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+}
+p{
+ 
+}
